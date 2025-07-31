@@ -1,0 +1,149 @@
+@media (max-width: 950px) {
+  .menu-section .menu-itens .menu-item {
+    width: 300px;
+  }
+
+  .menu-section .menu-itens .menu-item img {
+    width: calc(100% + 20px);
+  }
+}
+
+@media (max-width: 764px) {
+  .header {
+    flex-direction: column;
+    padding: 0;
+    height: 120px;
+    padding: 20px 0;
+  }
+
+  .header .logo {
+    height: 60px;
+    margin-top: -20px;
+  }
+
+  .header form {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rds-scs {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  .rds-scs .rds-scs-icon {
+    gap: 5px;
+  }
+
+  .rds-scs .rds-scs-icon i {
+    color: #721818;
+    font-size: 25px;
+  }
+
+  .carousel {
+    position: relative;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0;
+  }
+
+  button.prev,
+  button.next {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+
+  .menu-section {
+    top: 0px;
+  }
+
+  .menu-section .menu-itens .line {
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .menu-section .menu-itens .menu-item {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .menu-section .menu-itens .menu-item h3 {
+    font-size: 0.8rem;
+  }
+
+  .menu-section .menu-itens .menu-item p {
+    font-size: 0.5rem;
+  }
+
+  .text-cardapio {
+    width: 90%;
+  }
+
+  .feedback-section {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feedback-section h1 {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    height: 35px;
+    justify-content: center;
+    top: 120px;
+  }
+
+  .navbar ul li {
+    margin: 0 3px;
+  }
+
+  .navbar ul li a {
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+
+  .navbar ul li a i {
+    font-size: 10px;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  footer h3 {
+    color: #313131;
+    font-size: 16px;
+  }
+
+  footer a,
+  footer p {
+    font-size: 14px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .footer-content .footer-logo img {
+    width: 200px;
+  }
+
+  .footer-content .link-contato {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+}
