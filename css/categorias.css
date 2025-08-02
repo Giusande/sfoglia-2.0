@@ -1,0 +1,30 @@
+.dishes-list {
+  position: relative;
+  top: 20px;
+  left: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 300px));
+  padding: 80px 20px;
+  gap: 20px;
+  width: 90%;
+}
+
+.dishes-list-tree {
+  grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+}
+
+.dishes-list-dois{
+    grid-template-columns: repeat(auto-fit, minmax(160px, 250px));
+}
+
+.dishes-list .menu-item {
+  width: auto;
+}
+
+.dishes-list-um .menu-item {
+  width: 350px;
+}
+
+footer {
+  margin-top: 300px;
+}

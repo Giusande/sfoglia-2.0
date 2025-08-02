@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  height: 200px;
+  height: 220px;
   background-color: #fff;
 }
 
@@ -24,4 +24,9 @@ footer .footer-bottom {
   font-size: 14px;
   padding: 10px;
   color: #222222;
+}
+
+.footer-content .link-contato {
+  display: flex;
+  gap: 50px;
 }
