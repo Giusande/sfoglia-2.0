@@ -11,6 +11,19 @@
   }
 }
 
+@media (max-width: 1085px) {
+  .prato-details {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .prato-details img,
+  .prato-details .prato-infos {
+    width: 80%;
+    max-width: 600px;
+  }
+}
+
 @media (max-width: 950px) {
   .menu-item img {
     width: calc(100% + 20px);
@@ -131,6 +144,28 @@
 
   .feedback-section h1 {
     font-size: 2rem;
+  }
+
+  .prato-details img,
+  .prato-details .prato-infos {
+    width: 100%;
+  }
+
+  .prato-infos h3 {
+    font-size: 1.5rem;
+  }
+
+  .prato-infos p {
+    font-size: 0.8rem;
+  }
+
+  .prato-infos h4 {
+    font-size: 1.3rem;
+  }
+
+  .prato-infos button {
+    padding: 10px;
+    font-size: 0.8rem;
   }
 
   .navbar {

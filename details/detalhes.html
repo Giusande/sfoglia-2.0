@@ -25,10 +25,11 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/cardapio.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/categorias.css" />
+    <link rel="stylesheet" href="../css/details.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/mobile.css" />
-    <title>Sfoglia Massas Artesanais</title>
+    <title>Detalhes do Prato - Sfoglia Massas Artesanais</title>
   </head>
   <body>
     <main>
@@ -82,7 +83,17 @@
         </nav>
       </header>
       <!--Dishes Content-->
-      <section class="dishes-content">
+      <section class="details-content">
+        <div class="prato-details">
+          <img id="img" src="" alt="Imagem do prato" width="300" />
+          <div class="prato-infos">
+            <h3 id="titulo"></h3>
+            <p id="descricao"></p>
+            <h4>Preço: <span id="preco"></span></h4>
+            <button class="wpp">Entre em contato pelo Whatsapp</button>
+            <button class="ifood">Pedir pelo Ifood</button>
+          </div>
+        </div>
         <div class="dishes-list">
           <div class="menu-item">
             <img class="imagem" src="../assets/dishes/1.avif" alt="Ravioli" />
@@ -90,6 +101,36 @@
             <p class="descricao">
               Massa fresca recheada com uma mistura irresistível de queijos,
               regada ao delicioso molho de tomates artesanal.
+            </p>
+            <h4 class="preco">R$ 29.90</h4>
+            <button class="ver-mais">Veja Mais!</button>
+          </div>
+          <div class="menu-item">
+            <img
+              class="imagem"
+              src="../assets/dishes/3.avif"
+              alt="Combo Especial"
+            />
+            <h3 class="titulo">Fettuccine com ragu de linguiça</h3>
+            <p class="descricao">
+              Fettuccine artesanal, com ragu de linguiça suína (70g) e molho
+              artesanal de tomates.
+            </p>
+            <h4 class="preco">R$ 29.90</h4>
+            <button class="ver-mais">Veja Mais!</button>
+          </div>
+          <div class="menu-item">
+            <img
+              class="imagem"
+              src="../assets/dishes/3.avif"
+              alt="Combo Especial"
+            />
+            <h3 class="titulo">
+              Fettuccine com ragu de linguiça + Refrigerante
+            </h3>
+            <p class="descricao">
+              Fettuccine artesanal, com ragu de linguiça suína (70g) e molho
+              artesanal de tomates acompanha refrigerante lata 220ml
             </p>
             <h4 class="preco">R$ 29.90</h4>
             <button class="ver-mais">Veja Mais!</button>
@@ -128,6 +169,7 @@
         </div>
       </footer>
     </main>
+    <script src="../js/detalhes.js"></script>
     <script src="../js/details.js"></script>
     <script src="../js/categorias.js"></script>
   </body>

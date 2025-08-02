@@ -20,6 +20,10 @@
   gap: 30px;
 }
 
+.menu-section .menu-itens .line .menu-item h4 {
+  margin-bottom: 0;
+}
+
 .menu-item {
   background-color: #fff;
   border-radius: 7px;
